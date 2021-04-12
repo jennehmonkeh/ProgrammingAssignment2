@@ -1,11 +1,13 @@
-## 
+## R Programming Course: Week 3 Assignment 2 
+## create 2 functions - must call makeCacheMatrix first, it is 
+## required for cacheSolve to work
 ## 
 ## function makeCacheMatrix: Initialize a matrix function with a matrix
 ## the matrix must be able to be inverted or an error will occur
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
-  # set reinitizializes x & m, resets the cached matrix
+  # set re-initializes x & m, resets the cached matrix
   set <- function(y) {
     x <<- y
     m <<- NULL
